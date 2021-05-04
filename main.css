@@ -15,18 +15,6 @@ body {
   height:100%;
 }
 
-.head {
-  background-color: rgb(85, 103, 131);
-  width: 250px;
-  height: 330px;
-  left: 40%;
-  bottom: 30%;
-  display: flex;
-  position: absolute;
-  border-radius: 165px 165px 180px 180px;
-  z-index: 2;
-  }
-
 .next-button {
   width:60px;
   height:30px;
