@@ -34,6 +34,19 @@ img {
   text-align: center;
 }
 
+.text8 {
+  width:700px;
+  height:70px;
+  position: absolute;
+  z-index: 3;
+  color:#c9cfd8;
+  top:10px;
+  left:48%;
+  font-size: 20px;
+  text-align: center;
+}
+
+
 .text2 {
   width:500px;
   height:70px;
