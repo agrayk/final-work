@@ -4,11 +4,12 @@
 
 body {
   margin:0;
-  background-color: #213350;
+  background-color: #1c2b44;
+  font-family: 'New Tegomin', serif;
 }
 
 .main {
-  background-color: #213350;
+  background-color: #1c2b44;
   display: flex;
   align-content: center;
   width: 100%;
@@ -20,10 +21,11 @@ body {
   height:70px;
   position: absolute;
   z-index: 3;
-  color:white;
+  color:#c9cfd8;
   top:70px;
-  left:34%;
+  left:30%;
   font-size: 50px;
+  text-align: center;
 }
 
 .text2 {
@@ -31,10 +33,11 @@ body {
   height:70px;
   position: absolute;
   z-index: 3;
-  color:white;
-  top:265px;
-  left:34%;
+  color:#c9cfd8;
+  top:287px;
+  left:30%;
   font-size: 50px;
+  text-align: center;
 }
 
 .text3 {
@@ -42,17 +45,39 @@ body {
   height:70px;
   position: absolute;
   z-index: 3;
-  color:white;
-  top:400px;
-  left:34%;
+  color:#c9cfd8;
+  top:425px;
+  left:30%;
   font-size: 50px;
+  text-align: center;
 }
 
 .next-button {
   width:60px;
   height:30px;
-  background-color: white;
-  bottom: 105px;
-  left:50%;
+  bottom: 165px;
+  left:41.5%;
   position: absolute;
+  font-size: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #c9cfd8;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #c9cfd8;
+}
+
+a:active {
+  text-decoration: none;
+  color: #c9cfd8;
+}
+
+
+a:hover {
+  color: #0d131c;
+  opacity: 1;
 }

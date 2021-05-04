@@ -7,9 +7,14 @@ body {
   background-color: #1b273c;
 }
 
+img {
+  left:150px;
+  position: absolute;
+}
 .main {
   background-color: #1b273c;
   display: flex;
+  flex-direction: column;
   align-content: center;
   width: 100%;
   height:100%;
