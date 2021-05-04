@@ -25,9 +25,10 @@ img {
   height:30px;
   color: #c9cfd8;
   top: 282px;
-  left:639px;
+  left:620px;
   position: absolute;
   z-index: 4;
+  font-size: 30px;
 }
 
 a:link {
