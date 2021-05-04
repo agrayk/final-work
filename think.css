@@ -86,8 +86,8 @@ video {
 .next-button {
   width:130px;
   height:60px;
-  bottom:34px;
-  right:43%;
+  bottom:4px;
+  right:3%;
   position: absolute;
   font-size: 36px;
   z-index: 2;
