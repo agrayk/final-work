@@ -4,16 +4,18 @@
 
 body {
   margin:0;
-  background-color: #1b273c;
+  background-color: black;
   font-family: 'New Tegomin', serif;
 }
 
-img {
-  left:150px;
+video {
   position: absolute;
+  align-self:center;
+  top:100px;
 }
+
 .main {
-  background-color: #1b273c;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -22,91 +24,89 @@ img {
 }
 
 .text {
-  width:500px;
+  width:1000px;
   height:70px;
   position: absolute;
   z-index: 3;
-  color:#c9cfd8;
-  top:40px;
-  left:26%;
-  font-size: 50px;
+  color:#dbdee3;
+  top:35px;
+  left:16%;
+  font-size: 36px;
   text-align: center;
 }
 
 .text2 {
-  width:500px;
+  width:200px;
   height:70px;
   position: absolute;
   z-index: 3;
-  color:#c9cfd8;
-  bottom:107px;
-  left:33%;
-  font-size: 50px;
+  color:#dbdee3;
+  top:35%;
+  left:3%;
+  font-size: 30px;
   text-align: center;
 }
 
 .text3 {
-  width:500px;
+  width:200px;
   height:70px;
   position: absolute;
   z-index: 3;
-  color:#c9cfd8;
-  bottom:50%;
-  left:7.5%;
+  color:#dbdee3;
+  top:34%;
+  right:3%;
   font-size: 30px;
   text-align: center;
-  opacity: .2;
 }
 
 .text4 {
-  width:500px;
+  width:1000px;
   height:70px;
   position: absolute;
   z-index: 3;
-  color:#1b273c;
-  bottom:50%;
-  left:31.3%;
-  font-size: 30px;
+  color:#dbdee3;
+  bottom:35px;
+  left:16%;
+  font-size: 36px;
   text-align: center;
-  opacity: .2;
 }
 
 .text5 {
-  width:500px;
+  width:1000px;
   height:70px;
   position: absolute;
   z-index: 3;
-  color:#1b273c;
-  bottom:50%;
-  right:10%;
-  font-size: 30px;
+  color:#dbdee3;
+  bottom:-5px;
+  left:11%;
+  font-size: 36px;
   text-align: center;
-  opacity: .2;
 }
 
 .next-button {
-  width:60px;
-  height:30px;
-  top: 40px;
-  right:40.3%;
+  width:130px;
+  height:60px;
+  bottom:34px;
+  right:43%;
   position: absolute;
-  font-size: 50px;
+  font-size: 36px;
   z-index: 2;
+  align-self: center;
 }
 
 a:link {
   text-decoration: none;
-  color: #c9cfd8;
+  color: #dbdee3;
 }
 
 a:visited {
   text-decoration: none;
-  color: #c9cfd8;
+  color: #dbdee3;
 }
 
 a:active {
   text-decoration: none;
-  color: #c9cfd8;
+  color: #dbdee3;
 }
 
 
